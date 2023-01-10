@@ -66,7 +66,7 @@ end
 
 Ct = 0.031;
 CD = (0.031+0.13*alpha+0.06*u2);
-CL = (5.143*alpha+0.43*u2+0.31+3.9*x5); % Aerodynamic Force And Moment Coefficients , Stability Coefficients
+CL = (5.143*alpha+0.43*u2+0.31+3.9*x5); % Aerodynamic Force And Moment Coefficients and Stability Coefficients
 Clm = (0.178*u1+0.0147*u3-0.047*x4);
 Cmm = (-0.89*alpha-12.4*x5-1.28*u2);
 Cnm = (0.065*beta-0.099*x6-0.0657*u3);
