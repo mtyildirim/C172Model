@@ -1,4 +1,4 @@
-function [XDOT,DCM] = cessna_model_xdot(x,u,g,rho)
+function [XDOT,DCM] = cessna_model_xdot(x,u,g,rho)  % Muhammet Tarık Yıldırım,Marmara University,2023
 
 x1=x(1);    %u
 x2=x(2);    %v
